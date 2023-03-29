@@ -3,8 +3,6 @@ package com.pfa.authentication.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data
-@AllArgsConstructor
 public class LoginResponse {
 
     public LoginResponse(String token) {

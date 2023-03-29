@@ -5,10 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class Student {
 
     public Student(Long id, String name, String age) {
@@ -38,9 +34,6 @@ public class Student {
 		return age;
 	}
 
-	public void setAge(String age) {
-		this.age = age;
-	}
 
 	private Long id;
 
